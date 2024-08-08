@@ -828,6 +828,35 @@ btn-group a:nth-of-type(2):hover{
     padding: 1rem 1rem;
     
   }
+  .home-img{
+    margin: 0 0 0 150px;
+  }
+  .home-img .me{
+    width: 330px;
+    margin: 40px 0px 0px 75px;
+  }
+  section{
+    padding-bottom: 0px;
+    bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .home-content h1{
+    margin-left: 60px;
+  }
+  .home-content .text-animation{
+    margin-left: 60px;
+  }
+  .home-content p{
+    margin-left: 60px;
+    margin-right 100px;
+    font-size: 17px;
+  }
+  .home-content .social-icons{
+    margin-left: 60px;
+  }
+  .home-content .btn-group{
+    margin-left: 50px
+  }
 
 }
 
