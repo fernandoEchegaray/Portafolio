@@ -734,6 +734,9 @@ btn-group a:nth-of-type(2):hover{
   }
 }  
 @media(max-width:702px){
+  body{
+    width: 100%;
+  }
   #menu-icon{
     display: block;
   }
