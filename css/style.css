@@ -1,4 +1,4 @@
-* {
+lo* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -833,11 +833,11 @@ btn-group a:nth-of-type(2):hover{
     justify-content: left;
     align-items: baseline;
     padding: 1rem 1rem;
-    width: 300px;
+    width: 600px;
     
   }
   .home-img{
-    margin: 0 0 0 150px;
+    margin: 0 0 0 120px;
   }
   .home-img .me{
     width: 560px;
