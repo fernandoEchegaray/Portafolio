@@ -1,4 +1,4 @@
-* {
+no* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -816,14 +816,14 @@ btn-group a:nth-of-type(2):hover{
     text-align: center;
   }
   h2{
-    font-size: 10px;
+    font-size: 25px;
   }
   .service-box{
     height: 470px;
     width: 600px;
   }
   .service-info p{
-    font-size: 18px ;
+    font-size: 25px ;
 
   }
   .service-box .service-info{
