@@ -172,7 +172,7 @@ span{
   position: relative;
   margin: 10px;
   background-image:rotate(90deg);
-
+  border: 2px solid #FAE262;
 }
 .btn-3{
   color: #fff;
