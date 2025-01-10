@@ -112,6 +112,8 @@ span{
   width: 500px;
 }
 .home-img{
+  display: flex;
+  justify-content: center;
   border-radius: 50%;
   width: 480px;
   margin-bottom: 3rem;
