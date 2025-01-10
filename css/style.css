@@ -123,6 +123,7 @@ span{
 }
 
 .home-img img{
+  display: flex;
   position: relative;
   top: 1rem;
   margin-bottom: 15rem;
