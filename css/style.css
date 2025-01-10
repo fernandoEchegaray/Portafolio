@@ -1,4 +1,4 @@
-*{
+de*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -119,6 +119,7 @@ span{
   margin-bottom: 3rem;
   
 }
+
 .home-img img{
   position: relative;
   top: 1rem;
@@ -131,9 +132,12 @@ span{
   transition: 0.4s ease-in-out; 
   background-image: url("/imagenes/gif4.gif");
   background-size: 100;
-  
-  
 }
+.me{
+  z-index: 2;
+}
+.me-back{
+  z-index: 1;
 .home-img img:hover{
   box-shadow: 0 0 25px var(--main-color),
               0 0 50px var(--main-color),
