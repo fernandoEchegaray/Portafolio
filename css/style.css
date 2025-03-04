@@ -141,6 +141,7 @@ span{
 }
 .me-back{
   z-index: 1;
+}
 .home-img img:hover{
   box-shadow: 0 0 25px var(--main-color),
               0 0 50px var(--main-color),
