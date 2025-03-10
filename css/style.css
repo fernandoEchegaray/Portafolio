@@ -846,8 +846,8 @@ btn-group a:nth-of-type(2):hover{
   }
   .home-img{
     margin: 0 0 0 70px;
-    width: 560px;
-    height: 560px;
+    width: 100%;
+    height: 100%;
   }
   .home-img .me{
   }
