@@ -844,12 +844,28 @@ btn-group a:nth-of-type(2):hover{
     width: 550px;
     
   }
-  .home-img{
-    margin: auto;
-    width: 100%;
-    height: 100%;
+  .home-img img{
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    width: 400px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out; 
+  }  
+  .me{
+    position: absolute; /* Posiciona la imagen del frente */
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegura que ocupe todo el contenedor */
+    height: 100%; /* Mantiene la proporción */
+    z-index: 2;
   }
-  .home-img .me{
+  .me-back{
+    position: absolute; /* Posiciona la imagen de fondo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegura que ocupe todo el contenedor */
+    height: 100%; /* Mantiene la proporción */
+    z-index: 1;
   }
   section{
     padding-bottom: 0px;
