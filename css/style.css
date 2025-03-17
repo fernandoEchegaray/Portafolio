@@ -122,7 +122,7 @@ span{
   width: 400px;
   cursor: pointer;
   transition: 0.4s ease-in-out; 
-  margin-button: 100px;
+  margin-button: 180px;
 }  
 .me{
   position: absolute; /* Posiciona la imagen del frente */
