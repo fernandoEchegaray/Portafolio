@@ -80,7 +80,7 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15rem;
+  gap: 20rem;
 }
 .home-content{
   display: absolute;
