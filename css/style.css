@@ -80,16 +80,15 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20rem;
-  padding: 0px 15px;
+  gap: 15rem;
 }
 .home-content{
-  display: absolute;
+  display: flex;
   flex-direction: column;
   align-items: left;
   text-align: left;
   justify-content: center;
-  margin: 50px 50px 150px 0px;
+  margin: 50px 0px 150px 43px;
 }
 
 span{
