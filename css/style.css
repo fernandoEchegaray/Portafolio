@@ -81,7 +81,7 @@ section{
   align-items: center;
   justify-content: center;
   gap: 20rem;
-  padding: 20px;
+  padding: 0px 15px;
 }
 .home-content{
   display: absolute;
