@@ -111,18 +111,21 @@ span{
 }
 .home-img{
   position: relative; /* Necesario para posicionar los hijos */
-  width: 400px; /* Ajusta el ancho según sea necesario */
-  height: 400px; /* Ajusta la altura según sea necesario */
+  width: 480px; /* Ajusta el ancho según sea necesario */
+  /* height: 400px;  Ajusta la altura según sea necesario */
+  margin-bottom: 3rem;
   
 }
 
 .home-img img{
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
-  width: 400px;
+  top: 1rem;
+  margin-bottom: 15rem;
+  width: 35vw;
   cursor: pointer;
   transition: 0.4s ease-in-out; 
-  margin-button: 180px;
+  margin-right: 150px;
 }  
 .me{
   position: absolute; /* Posiciona la imagen del frente */
