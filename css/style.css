@@ -73,7 +73,7 @@ body{
 }
 section{
   min-height: 100vh;
-  padding: 10rem 12% 10rem;
+  padding: 3rem 10% 3rem;
   bottom: 3rem;
 }
 .home{
@@ -113,7 +113,7 @@ span{
   position: relative; /* Necesario para posicionar los hijos */
   width: 480px; /* Ajusta el ancho según sea necesario */
   height: 400px;  /*Ajusta la altura según sea necesario */
-  margin-bottom: 3rem;
+  margin-bottom: 8rem;
   
 }
 
