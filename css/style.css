@@ -523,7 +523,7 @@ btn-group a:nth-of-type(2):hover{
   background: var(--second-bg-color);
   
 }
-.testimonials-box{
+/*.testimonials-box{
   background-size: cover;
   display: flex;
   align-items: center;
@@ -577,7 +577,7 @@ btn-group a:nth-of-type(2):hover{
   color: gold;
   font-size: 2rem;
 }
-
+*/
 
 .contact{
   background-color: var(--bg-color);
