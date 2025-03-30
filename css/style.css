@@ -111,8 +111,8 @@ span{
 }
 .home-img{
   position: relative; /* Necesario para posicionar los hijos */
-  width: 100%; /* Ajusta el ancho según sea necesario */
-  height: 100%;  /*Ajusta la altura según sea necesario */
+  width: 480px; /* Ajusta el ancho según sea necesario */
+  height: 480px;  /*Ajusta la altura según sea necesario */
   margin-bottom: 8rem;
   
 }
