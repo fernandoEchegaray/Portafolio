@@ -579,7 +579,7 @@ btn-group a:nth-of-type(2):hover{
 */
 
 .contact{
-  padding: 100px 15px;
+  padding: 50px 15px;
   background: var(--second-bg-color);
   background-size: 100%;
 }
@@ -894,7 +894,7 @@ btn-group a:nth-of-type(2):hover{
     margin-left: 150px
   }
   .contact{
-  padding: 100px 15px;
+  padding: 150px 15px;
   background: var(--second-bg-color);
   background-size: 100%;
 }
