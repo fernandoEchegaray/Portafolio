@@ -581,7 +581,7 @@ btn-group a:nth-of-type(2):hover{
 
 .contact{
   background-color: var(--bg-color);
-  height: 100vw;
+  height: 100vh;
 }
 .contact h2{
   margin-bottom: 3rem;
@@ -895,7 +895,7 @@ btn-group a:nth-of-type(2):hover{
   }
   .contact{
   background-color: var(--bg-color);
-  height: 100vw;
+  height: 100vh;
 }
 
 }
