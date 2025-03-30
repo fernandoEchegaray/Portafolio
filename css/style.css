@@ -378,7 +378,6 @@ btn-group a:nth-of-type(2):hover{
 .education{
   padding: 100px 15px;
   background: var(--second-bg-color);
-  background: var(--second-bg-color);
   background-size: 100%;
 }
 .education h2{
@@ -580,8 +579,9 @@ btn-group a:nth-of-type(2):hover{
 */
 
 .contact{
-  background-color: var(--second-bg-color);
-  height: 100vh;
+  padding: 100px 15px;
+  background: var(--second-bg-color);
+  background-size: 100%;
 }
 .contact h2{
   margin-bottom: 3rem;
@@ -894,8 +894,9 @@ btn-group a:nth-of-type(2):hover{
     margin-left: 150px
   }
   .contact{
-  background-color: var(--second-bg-color);
-  height: 150vh;
+  padding: 100px 15px;
+  background: var(--second-bg-color);
+  background-size: 100%;
 }
 
 }
