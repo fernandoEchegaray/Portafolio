@@ -42,7 +42,7 @@ body{
   color: var(--text-color);
   font-weight: 800;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 3s ease;
   
 }
 .logo:hover{
@@ -894,7 +894,7 @@ btn-group a:nth-of-type(2):hover{
     margin-left: 150px
   }
   .contact{
-  padding: 150px 15px;
+  padding: 200px 15px;
   background: var(--second-bg-color);
   background-size: 100%;
 }
