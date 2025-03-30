@@ -19,6 +19,11 @@ window.onscroll = () => {
     }
   });
 };
+menuIcon.onclick = () => { 
+  menuIcon.classList.toggle('bx-x'); 
+  navbar.classList.toggle('active');   
+}
+
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');
