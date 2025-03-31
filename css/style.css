@@ -820,7 +820,7 @@ btn-group a:nth-of-type(2):hover{
 }
 @media screen and (max-width: 480px){
   body{
-    width: 100vh;
+    width: 100vm;
     height: 100vh;
   }
   .heading{
