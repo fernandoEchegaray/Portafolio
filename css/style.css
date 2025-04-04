@@ -821,8 +821,8 @@ btn-group a:nth-of-type(2):hover{
 }
 @media screen and (max-width: 480px){
   body{
-    font-size: 40%;
-    width: 100%;
+    font-size: 30%;
+    width: 180%;
     height: 100vh;
   }
   .heading{
@@ -869,8 +869,8 @@ btn-group a:nth-of-type(2):hover{
     position: absolute; /* Posiciona la imagen de fondo */
     top: 0;
     left: 0;
-    width: 100%; /* Asegura que ocupe todo el contenedor */
-    height: 100%; /* Mantiene la proporción */
+    / * width: 70%; /* Asegura que ocupe todo el contenedor */
+    height: 70%;* / /* Mantiene la proporción */
     z-index: 1;
   }
   section{
