@@ -16,13 +16,13 @@
 }
 
 html{
-  font-size: 40%;
-  overflow-x:hidden;
+    overflow-x:hidden;
 }
 
 body{
   background: var(--bg-color);
-  color: var(--text-color);
+  color: var(--text-color);}
+  font-size: 50%;
 }
 .header{
   position: fixed;
@@ -40,7 +40,7 @@ body{
 .logo{
   font-size: 3rem;
   color: var(--text-color);
-  font-weight: 800;
+  font-weight: 120px;
   cursor: pointer;
   transition: 0.3s ease;
   
