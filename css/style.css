@@ -22,7 +22,6 @@ html{
 body{
   background: var(--bg-color);
   color: var(--text-color);}
-  font-size: 50%;
 }
 .header{
   position: fixed;
@@ -40,7 +39,7 @@ body{
 .logo{
   font-size: 3rem;
   color: var(--text-color);
-  font-weight: 120px;
+  font-weight: 200px;
   cursor: pointer;
   transition: 0.3s ease;
   
@@ -677,9 +676,12 @@ btn-group a:nth-of-type(2):hover{
 
 
 @media(max-width:1285px){
-  html{
+  /*html{
     font-size: 55%;
-  }
+  }*/
+  body{ 
+    font-size: 55%;
+  }  
   .service-container{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2,1fr);
