@@ -16,7 +16,8 @@
 }
 
 html{
-    overflow-x:hidden;
+  overflow-x:hidden;
+  font-size: 50px;
 }
 
 body{
