@@ -850,9 +850,14 @@ btn-group a:nth-of-type(2):hover{
     justify-content: left;
     align-items: baseline;
     padding: 1rem 1rem;
-    width: 550px;
-    
+    width: 550px  
   }
+
+  .home{
+    font-size: 22px;
+    padding: 2px 0px 0px 10px;
+  }
+  
   .home-img img{
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
