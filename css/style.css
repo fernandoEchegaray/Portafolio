@@ -821,9 +821,9 @@ btn-group a:nth-of-type(2):hover{
 }
 @media screen and (max-width: 480px){
   body{
-    font-size: 40%;
-    width: 100%;
-    height: 100vh;
+    font-size: 30%;
+    width: 180%;
+    height: 100%;
   }
   .heading{
     text-align: center;
@@ -853,7 +853,7 @@ btn-group a:nth-of-type(2):hover{
   .home-img img{
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
-    width: 300px;
+    width: 250px;
     cursor: pointer;
     transition: 0.4s ease-in-out; 
   }  
@@ -861,16 +861,12 @@ btn-group a:nth-of-type(2):hover{
     position: absolute; /* Posiciona la imagen del frente */
     top: 0;
     left: 0;
-    width: 100%; /* Asegura que ocupe todo el contenedor */
-    height: 100%; /* Mantiene la proporción */
     z-index: 2;
   }
   .me-back{
     position: absolute; /* Posiciona la imagen de fondo */
     top: 0;
     left: 0;
-    width: 100%; /* Asegura que ocupe todo el contenedor */
-    height: 100%; /* Mantiene la proporción */
     z-index: 1;
   }
   section{
