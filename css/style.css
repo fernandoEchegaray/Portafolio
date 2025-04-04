@@ -853,7 +853,7 @@ btn-group a:nth-of-type(2):hover{
   .home-img img{
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
-    width: 400px;
+    width: 300px;
     cursor: pointer;
     transition: 0.4s ease-in-out; 
   }  
