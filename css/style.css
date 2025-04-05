@@ -821,7 +821,7 @@ btn-group a:nth-of-type(2):hover{
   }  
 
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 375px){
   html{
     font-size: 6px;
   }
