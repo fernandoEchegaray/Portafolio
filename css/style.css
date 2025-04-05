@@ -15,6 +15,14 @@
   --main-color:#FAE262;
 }
 
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 html{
   overflow-x: hidden;
   font-size: 9px;
@@ -43,6 +51,7 @@ body{
   font-weight: 200px;
   cursor: pointer;
   transition: 0.3s ease;
+  font-family: "Bebas Neue", sans-serif;
 }
 .logo:hover{
   transform: scale(1.2);
