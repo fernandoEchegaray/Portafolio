@@ -858,7 +858,7 @@ btn-group a:nth-of-type(2):hover{
     padding: 2px 0px 0px 10px;
   }
   
-  .home-img{
+  .home-img img{
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     width: 250px;
@@ -882,6 +882,9 @@ btn-group a:nth-of-type(2):hover{
     padding-bottom: 0px;
     bottom: 0px;
     margin-bottom: 0px;
+  }
+  .home-content{
+    margin: 0px 0px 0px 0px;
   }
   .home-content h1{
     margin-left: 20px;
