@@ -858,7 +858,7 @@ btn-group a:nth-of-type(2):hover{
     padding: 2px 0px 0px 10px;
   }
   
-  .home-img img{
+  .home-img{
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     width: 250px;
