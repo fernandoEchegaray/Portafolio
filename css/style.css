@@ -867,7 +867,7 @@ btn-group a:nth-of-type(2):hover{
 
   .home{
     font-size: 22px;
-    padding: 2px 0px 0px 10px;
+    padding: 2px 0px 0px 0px;
   }
   
   .home-img img{
@@ -898,14 +898,14 @@ btn-group a:nth-of-type(2):hover{
     margin: 0px 0px 0px 0px;
   }
   .home-content h1{
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .home-content .text-animation{
-    margin-left: 150px; 
+    margin-left: 0px; 
   }
   .home-content p{
     margin-left: 0px;
-    font-size: 22px;
+    font-size: 20px;
   }
   .home-content .social-icons{
     margin-left: 0px;
