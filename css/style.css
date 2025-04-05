@@ -58,6 +58,7 @@ body{
 }
 .logo span{
   text-shadow: 0 0 25px var(--main-color);
+  font-family: "Bebas Neue", sans-serif;
 }
 .navbar a{
   font-size: 1.8rem;
@@ -66,7 +67,6 @@ body{
   font-weight: 500;
   transition: 0.3s ease;
   border-bottom: 3px solid transparent;
-  
 }
 .navbar a:hover,
 .navbar a.active{
