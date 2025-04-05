@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
+  padding: 0; 
   box-sizing: border-box;
   text-decoration: none;
   border: none;
@@ -43,7 +43,6 @@ body{
   font-weight: 200px;
   cursor: pointer;
   transition: 0.3s ease;
-  
 }
 .logo:hover{
   transform: scale(1.2);
@@ -710,7 +709,7 @@ btn-group a:nth-of-type(2):hover{
     padding: 10rem 3% 2rem;
   }
   .timeline-items::before{
-    left:7px;
+    left: 7px;
   }
   .timeline-item:nth-child(odd){
     padding-right: 0;
@@ -850,7 +849,7 @@ btn-group a:nth-of-type(2):hover{
     justify-content: left;
     align-items: baseline;
     padding: 1rem 1rem;
-    width: 550px  
+    width: 550px;  
   }
 
   .home{
@@ -890,7 +889,7 @@ btn-group a:nth-of-type(2):hover{
     margin-left: 20px;
   }
   .home-content .text-animation{
-    margin-left: 150px;
+    margin-left: 150px; 
   }
   .home-content p{
     margin-left: 20px;
@@ -906,7 +905,7 @@ btn-group a:nth-of-type(2):hover{
   padding: 280px 15px;
   background: var(--second-bg-color);
   background-size: 100%;
-}
+  }
 
 }
 
