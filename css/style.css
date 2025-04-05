@@ -880,7 +880,8 @@ btn-group a:nth-of-type(2):hover{
 
   .home{
     font-size: 22px;
-    padding: 2px 0px 0px 0px;
+    padding: 4px 0px 0px 0px;
+    margin: 0px 0px 0px 2px ;
   }
   
   .home-img img{
@@ -909,7 +910,7 @@ btn-group a:nth-of-type(2):hover{
     margin-bottom: 0px;
   }
   .home-content{
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 7px;
   }
   .home-content h1{
     margin-left: 0px;
@@ -918,7 +919,7 @@ btn-group a:nth-of-type(2):hover{
     margin-left: 0px; 
   }
   .home-content p{
-    margin-left: 0px;
+    width: 390px;
     font-size: 20px;
   }
   .home-content .social-icons{
