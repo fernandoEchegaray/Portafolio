@@ -830,6 +830,19 @@ btn-group a:nth-of-type(2):hover{
   .heading{
     text-align: center;
   }
+  .header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 2% 0rem;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
   h2{
     font-size: 25px;
   }
@@ -861,7 +874,6 @@ btn-group a:nth-of-type(2):hover{
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     width: 250px;
-    heigth: 250px;
     cursor: pointer;
     transition: 0.4s ease-in-out; 
   }  
@@ -892,17 +904,17 @@ btn-group a:nth-of-type(2):hover{
     margin-left: 150px; 
   }
   .home-content p{
-    margin-left: 20px;
-    font-size: 23px;
+    margin-left: 0px;
+    font-size: 22px;
   }
   .home-content .social-icons{
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .home-content .btn-group{
-    margin-left: 20px
+    margin-left: 0px
   }
   .contact{
-  padding: 280px 15px;
+  padding: 280px 10px;
   background: var(--second-bg-color);
   background-size: 100%;
   }
