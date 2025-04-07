@@ -80,8 +80,7 @@ section{
 }
 .home{
   display: flex;
-  align-items: left;
-  justify-content: center;
+  justify-content: space-between;
   gap: 15rem;
 }
 .home-content{
