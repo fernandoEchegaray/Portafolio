@@ -46,7 +46,7 @@ body{
   z-index: 5;
 }
 .logo{
-  font-size: 4rem;
+  font-size: 6rem;
   color: var(--text-color);
   font-weight: 250px;
   cursor: pointer;
