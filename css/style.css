@@ -28,7 +28,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  heigth: 3rem;
+  heigth: 3em;
   background: rgba(0, 0, 0, 0.3);
   padding: 1rem;
   backdrop-filter: blur(10px);
