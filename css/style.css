@@ -14,15 +14,6 @@
   --text-color:white;
   --main-color:#FAE262;
 }
-
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-
 html{
   overflow-x: hidden;
   font-size: 9px;
@@ -39,7 +30,7 @@ body{
   width: 100%;
   heigth: 3rem;
   background: rgba(0, 0, 0, 0.3);
-  padding: 2rem;
+  padding: 1rem;
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -70,6 +61,7 @@ body{
   border-bottom: 3px solid transparent;
   font-family: "Bebas Neue", sans-serif;
   font-family: "Bangers", system-ui;
+  
 }
 .navbar a:hover,
 .navbar a.active{
