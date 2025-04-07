@@ -46,11 +46,11 @@ body{
   z-index: 5;
 }
 .logo{
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--text-color);
-  font-weight: 200px;
+  font-weight: 250px;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   font-family: "Bebas Neue", sans-serif;
 }
 .logo:hover{
@@ -108,7 +108,7 @@ span{
 .home-content h3{
   margin-bottom: 2rem;
   margin-top: 1rem;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .home-content h1{
   font-size: 10rem;
