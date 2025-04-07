@@ -30,7 +30,7 @@ body{
   width: 100%;
   heigth: 3em;
   background: rgba(0, 0, 0, 0.3);
-  padding: 1rem;
+  padding: 0rem 11rem;
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -75,7 +75,7 @@ body{
 }
 section{
   min-height: 100vh;
-  padding: 1rem 5% 1rem;
+  padding: ;
   bottom: 3rem;
 }
 .home{
@@ -89,7 +89,7 @@ section{
   align-items: left;
   text-align: left;
   justify-content: space-between;
-  margin: 80px 0px 120px 0px;
+  margin: 80px 100px 120px 0px;
 }
 
 span{
