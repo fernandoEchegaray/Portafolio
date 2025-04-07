@@ -69,6 +69,7 @@ body{
   transition: 0.3s ease;
   border-bottom: 3px solid transparent;
   font-family: "Bebas Neue", sans-serif;
+  font-family: "Bangers", system-ui;
 }
 .navbar a:hover,
 .navbar a.active{
