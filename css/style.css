@@ -38,8 +38,8 @@ body{
   left: 0;
   width: 100%;
   heigth: 3rem;
-  padding: 3rem 9% 3rem;
   background: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
