@@ -55,17 +55,18 @@ body{
 .navbar a{
   font-size: 1.8rem;
   color: var(--text-color);
+  text-decoration: none;
   margin-left: 4rem;
   font-weight: 500;
   transition: 0.3s ease;
   border-bottom: 3px solid transparent;
   font-family: "Bangers", system-ui;
-  
 }
 .navbar a:hover,
 .navbar a.active{
   color: var(--main-color);
   border-bottom: 3px solid var(--main-color);
+  font-family: "Bangers", system-ui;
 }
 
 #menu-icon{
