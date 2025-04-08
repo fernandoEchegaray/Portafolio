@@ -30,7 +30,7 @@ body{
   width: 100%;
   heigth: 3em;
   background: rgba(0, 0, 0, 0.3);
-  padding: 0rem 11rem;
+  padding: 0rem 11rem 0rem 9rem;
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
