@@ -43,14 +43,14 @@ body{
   font-weight: 250px;
   cursor: pointer;
   transition: 0.2s ease;
-  font-family: "Bebas Neue", sans-serif;
+  
 }
 .logo:hover{
   transform: scale(1.2);
 }
 .logo span{
   text-shadow: 0 0 25px var(--main-color);
-  font-family: "Bebas Neue", sans-serif;
+  
 }
 .navbar a{
   font-size: 1.8rem;
