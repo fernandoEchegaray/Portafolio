@@ -43,6 +43,7 @@ body{
   font-weight: 250px;
   cursor: pointer;
   transition: 0.2s ease;
+  font-family: "Bebas Neue", sans-serif;
   
 }
 .logo:hover{
