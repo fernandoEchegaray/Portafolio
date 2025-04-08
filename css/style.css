@@ -92,6 +92,7 @@ section{
 
 span{
   color: var(--main-color);
+  font-size: 10rem;
 }
 .logo span{
   color: var(--main-color);
@@ -102,7 +103,7 @@ span{
   font-size: 2rem;
 }
 .home-content h1{
-  font-size: 10rem;
+  font-size: 9rem;
   font-weight: 700;
   margin-top: 1.5rem;
   line-height: 1;
