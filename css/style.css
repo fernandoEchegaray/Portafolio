@@ -94,11 +94,19 @@ section{
   justify-content: space-between;
   margin: 80px 100px 120px 80px;
 }
-
-span{
+.span1{
+  color: var(--main-color);
+  font-size: 8rem;
+}
+.span2{
   color: var(--main-color);
   font-size: 5rem;
 }
+.span3{
+  color: var(--main-color);
+  font-size: 5rem;
+}
+
 .logo span{
   color: var(--main-color);
 }
@@ -329,7 +337,7 @@ btn-group a:nth-of-type(2):hover{
   }
 }
 @keyframes words{
-  0%,
+  1%,
   20%{
     content: "Diseñador Frontend";
   }
