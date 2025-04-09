@@ -932,9 +932,21 @@ btn-group a:nth-of-type(2):hover{
     margin-left: 0px
   }
   .contact{
-  padding: 280px 10px;
-  background: var(--second-bg-color);
-  background-size: 100%;
+    padding: 280px 10px;
+    background: var(--second-bg-color);
+    background-size: 100%;
+  }
+  .span1{
+    color: var(--main-color);
+    font-size: 2rem;
+  }
+  .span2{
+    color: var(--main-color);
+    font-size: 5rem;
+  }
+  .span3{
+    color: var(--main-color);
+    font-size: 3rem;
   }
 
 }
