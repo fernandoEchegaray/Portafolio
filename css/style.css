@@ -98,14 +98,8 @@ section{
   color: var(--main-color);
   font-size: 8rem;
 }
-.span2{
-  color: var(--main-color);
-  font-size: 5rem;
-}
-.span3{
-  color: var(--main-color);
-  font-size: 5rem;
-}
+
+
 
 .logo span{
   color: var(--main-color);
@@ -121,6 +115,10 @@ section{
   margin-top: 1.5rem;
   line-height: 1;
   width: 500px;
+}
+.span2{
+  color: var(--main-color);
+  font-size: 5rem;
 }
 .home-img{
   position: relative; /* Necesario para posicionar los hijos */
@@ -311,6 +309,10 @@ btn-group a:nth-of-type(2):hover{
   font-size: 7rem;
   font-weight: 600;
   min-width: 280px;
+}
+.span3{
+  color: var(--main-color);
+  font-size: 5rem;
 }
 
 .text-animation .span3{
