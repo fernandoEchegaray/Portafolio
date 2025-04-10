@@ -846,17 +846,17 @@ btn-group a:nth-of-type(2):hover{
     text-align: center;
   }
   .header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0 2% 0rem;
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0rem 10rem 0 0rem;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: column;
+    align-items: left;
+    z-index: 5;
 }
   h2{
     font-size: 25px;
@@ -944,7 +944,7 @@ btn-group a:nth-of-type(2):hover{
   }
   .span1{
     color: var(--main-color);
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .span2{
     color: var(--main-color);
