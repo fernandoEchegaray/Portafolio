@@ -839,9 +839,8 @@ btn-group a:nth-of-type(2):hover{
   }
   
   body{
-    font-size: 30%;
-    width: 180%;
-    height: 100%;
+    width: 100%;
+    
   }
   .heading{
     text-align: center;
@@ -885,6 +884,7 @@ btn-group a:nth-of-type(2):hover{
     font-size: 22px;
     padding: 4px 0px 0px 0px;
     margin: 0px 0px 0px 2px ;
+    
   }
   
   .home-img img{
