@@ -859,13 +859,17 @@ btn-group a:nth-of-type(2):hover{
     z-index: 5;
   }
   .logo{
-    font-size: 1rem;
+    font-size: 4rem;
     color: var(--text-color);
     font-weight: 250px;
     cursor: pointer;
     transition: 0.2s ease;
     font-family: "Bebas Neue", sans-serif;
     width: 200px;
+  }
+  .span1{
+    color: var(--main-color);
+    font-size: 4rem;
   }
   h2{
     font-size: 25px;
@@ -951,10 +955,6 @@ btn-group a:nth-of-type(2):hover{
     padding: 280px 10px;
     background: var(--second-bg-color);
     background-size: 100%;
-  }
-  .span1{
-    color: var(--main-color);
-    font-size: 1rem;
   }
   .span2{
     color: var(--main-color);
