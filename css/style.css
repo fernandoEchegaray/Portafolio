@@ -30,7 +30,7 @@ body{
   width: 100%;
   heigth: 3em;
   background: rgba(0, 0, 0, 0.3);
-  padding: 0rem 11rem 0rem 1rem;
+  padding: 0rem 11rem 0rem 9rem;
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ body{
   z-index: 5;
 }
 .logo{
-  font-size: 4rem;
+  font-size: 8rem;
   color: var(--text-color);
   font-weight: 250px;
   cursor: pointer;
@@ -523,7 +523,7 @@ btn-group a:nth-of-type(2):hover{
   margin: auto;
 }
 .service-info p{
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   max-height: 100px;
   line-height: 1.7;
