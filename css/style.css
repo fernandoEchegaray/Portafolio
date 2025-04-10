@@ -857,7 +857,16 @@ btn-group a:nth-of-type(2):hover{
     justify-content: column;
     align-items: left;
     z-index: 5;
-}
+  }
+  .logo{
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 250px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-family: "Bebas Neue", sans-serif;
+    width: 200px;
+  }
   h2{
     font-size: 25px;
   }
