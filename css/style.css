@@ -913,7 +913,11 @@ btn-group a:nth-of-type(2):hover{
     margin-bottom: 0px;
   }
   .home-content{
-    margin: 0px 0px 0px 7px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    margin: 30px 100px 120px 2px;
   }
   .home-content h1{
     margin-left: 0px;
