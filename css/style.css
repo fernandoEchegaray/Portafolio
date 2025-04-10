@@ -38,7 +38,7 @@ body{
   z-index: 5;
 }
 .logo{
-  font-size: 8rem;
+  font-size: 4rem;
   color: var(--text-color);
   font-weight: 250px;
   cursor: pointer;
@@ -78,8 +78,8 @@ body{
 }
 section{
   min-height: 100vh;
-  padding: ;
-  bottom: 3rem;
+  width: 100%;
+  
 }
 .home{
   display: flex;
@@ -89,7 +89,7 @@ section{
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: space-between;
+  justify-content: left;
   margin: 80px 0px 120px 80px;
 }
 .span1{
