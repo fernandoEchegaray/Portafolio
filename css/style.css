@@ -480,25 +480,25 @@ btn-group a:nth-of-type(2):hover{
 }
 /*Inicio carusel*/
 
-.service .service-conteiner .service-box .service-info .carrusel {
+.service-info .carrusel {
   position: relative;
   max-width: 600px;
   margin: auto;
   overflow: hidden;
 }
-.service .service-conteiner .service-box .service-info .carrusel .carrusel-inner {
+.service-info .carrusel .carrusel-inner {
   display: flex;
   transition: transform 0.5s ease;
 }
-.service .service-conteiner .service-box .service-info .carrusel .carrusel-item {
+.service-info .carrusel .carrusel-item {
   min-width: 100%;
   box-sizing: border-box;
 }
-.service .service-conteiner .service-box .service-info .carrusel .carrusel-item img{
+.service-info .carrusel .carrusel-item img{
   width: 100%;
   border-radius: 5px;
 }
-.service .service-conteiner .service-box .service-info .carrusel button{
+.service-info .carrusel button{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -508,10 +508,10 @@ btn-group a:nth-of-type(2):hover{
   padding: 10px;
   border-radius: 5px;
 }
-.service .service-conteiner .service-box .service-info .carrusel .prev{
+.service-info .carrusel .prev{
   left: 10px;
 }
-.service .service-conteiner .service-box .service-info .carrusel ,next{
+.service-info .carrusel .next{
   rigth: 10%;
 }
 
@@ -540,13 +540,13 @@ btn-group a:nth-of-type(2):hover{
   cursor: pointer;
   transition: 0.4s ease-in-out;  
 }
-.service-box:hover{
+/*.service-box:hover{
   background: white;
   color: black;
   border: 5px solid var(--main-color);
   transform: scale(1.03);
   
-}
+}*/
 .service-box .service-info{
   display: flex;
   flex-direction: column;
