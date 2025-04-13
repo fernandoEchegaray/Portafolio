@@ -480,25 +480,25 @@ btn-group a:nth-of-type(2):hover{
 }
 /*Inicio carusel*/
 
-.service-info .carrusel {
+.carrusel {
   position: relative;
   max-width: 600px;
   margin: auto;
   overflow: hidden;
 }
-.service-info .carrusel .carrusel-inner {
+.carrusel-inner {
   display: flex;
   transition: transform 0.5s ease;
 }
-.service-info .carrusel .carrusel-item {
+.carrusel-item {
   min-width: 100%;
   box-sizing: border-box;
 }
-.service-info .carrusel .carrusel-item img{
+.carrusel-item img{
   width: 100%;
   border-radius: 5px;
 }
-.service-info .carrusel button{
+.carrusel button{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -508,10 +508,10 @@ btn-group a:nth-of-type(2):hover{
   padding: 10px;
   border-radius: 5px;
 }
-.service-info .carrusel .prev{
+.prev{
   left: 10px;
 }
-.service-info .carrusel .next{
+.next{
   rigth: 10%;
 }
 
