@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let index = 0;
 function cambiarImagen(direccion) {
-    const items = document.querySelectorAll('.carousel-item');
+    const items = document.querySelectorAll('.carrusel-item');
     index += direccion;
     if (index < 0) {
         index = items.length - 1;
@@ -41,5 +41,5 @@ function cambiarImagen(direccion) {
         index = 0;
     }
     const offset = -index * 100;
-    document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+    document.querySelector('.carrusel-inner').style.transform = `translateX(${offset}%)`;
 }
