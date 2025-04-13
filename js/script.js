@@ -30,3 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
     navbar.classList.toggle('active');
   };
 });
+
+let index = 0;
+function cambiarImagen(direccion) {
+    const items = document.querySelectorAll('.carousel-item');
+    index += direccion;
+    if (index < 0) {
+        index = items.length - 1;
+    } else if (index >= items.length) {
+        index = 0;
+    }
+    const offset = -index * 100;
+    document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+}
