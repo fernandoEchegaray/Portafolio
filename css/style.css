@@ -480,7 +480,7 @@ btn-group a:nth-of-type(2):hover{
 }
 /*Inicio carusel*/
 
-.carousel {
+.service .service-conteiner .service-box .service-info .carousel {
   position: relative;
   max-width: 600px;
   margin: auto;
