@@ -875,7 +875,10 @@ btn-group a:nth-of-type(2):hover{
 }
 @media screen and (max-width: 375px){
   @viewport{
-    
+    width: device-width;
+    initial-scale: 1.5;
+    maximum-scale: 1.5;
+    user-scalable: no;
   }
   
   html{
