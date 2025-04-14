@@ -874,6 +874,10 @@ btn-group a:nth-of-type(2):hover{
 
 }
 @media screen and (max-width: 375px){
+  @viewport{
+    
+  }
+  
   html{
     font-size: 6px;
   }
