@@ -899,7 +899,7 @@ btn-group a:nth-of-type(2):hover{
     z-index: 5;
   }
   .logo{
-    font-size: 8rem;
+    font-size: 7rem;
     color: var(--text-color);
     font-weight: 250px;
     cursor: pointer;
@@ -909,7 +909,7 @@ btn-group a:nth-of-type(2):hover{
   }
   .span1{
     color: var(--main-color);
-    font-size: 8rem;
+    font-size: 7rem;
   }
   h2{
     font-size: 25px;
