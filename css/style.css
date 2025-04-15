@@ -909,7 +909,7 @@ btn-group a:nth-of-type(2):hover{
   }
   .span1{
     color: var(--main-color);
-    font-size: 4rem;
+    font-size: 8rem;
   }
   h2{
     font-size: 25px;
