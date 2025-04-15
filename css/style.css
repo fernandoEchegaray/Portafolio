@@ -890,7 +890,7 @@ btn-group a:nth-of-type(2):hover{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0rem 10rem 0 0rem;
+    padding: 0rem 0rem 0rem 6rem;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
@@ -899,13 +899,13 @@ btn-group a:nth-of-type(2):hover{
     z-index: 5;
   }
   .logo{
-    font-size: 4rem;
+    font-size: 8rem;
     color: var(--text-color);
     font-weight: 250px;
     cursor: pointer;
     transition: 0.2s ease;
     font-family: "Bebas Neue", sans-serif;
-    width: 200px;
+    width: 100%;
   }
   .span1{
     color: var(--main-color);
