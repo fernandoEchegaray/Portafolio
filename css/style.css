@@ -873,14 +873,7 @@ btn-group a:nth-of-type(2):hover{
   }  
 
 }
-@media screen and (max-width: 375px){
-  @viewport{
-    width: device-width;
-    initial-scale: 1.5;
-    maximum-scale: 1.5;
-    user-scalable: no;
-  }
-  
+@media screen and (max-width: 480px){
   html{
     font-size: 6px;
   }
@@ -979,10 +972,10 @@ btn-group a:nth-of-type(2):hover{
     margin: 0px 100px 120px 2px;
   }
   .home-content h1 {
-        display: flex;
-        margin-left: 0px;
-        font-size: 4rem;
-        flex-direction: column;
+    display: flex;
+    margin-left: 0px;
+    font-size: 4rem;
+    flex-direction: column;
   }
   .home-content .text-animation{
     margin-left: 0px; 
