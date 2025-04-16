@@ -482,8 +482,8 @@ btn-group a:nth-of-type(2):hover{
 
 .carrusel {
   position: relative;
-  max-width: 600px;
-  margin: auto;
+  width: 100%;
+  heigth: 100%;
   overflow: hidden;
 }
 .carrusel-inner {
@@ -981,7 +981,7 @@ btn-group a:nth-of-type(2):hover{
     margin-left: 0px; 
   }
   .home-content p{
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: 400;
     line-height: 1.8;
     width: 100%;
