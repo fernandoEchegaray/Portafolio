@@ -947,13 +947,13 @@ btn-group a:nth-of-type(2):hover{
     margin: 10rem 11rem 0rem 14rem; 
   }  
   .me{
-    position: relative; /* Posiciona la imagen del frente */
+    position: absolut; /* Posiciona la imagen del frente */
     top: 0;
     left: 20%;
     z-index: 2;
   }
   .me-back{
-    position: relative; /* Posiciona la imagen de fondo */
+    position: absolute; /* Posiciona la imagen de fondo */
     top: 0;
     left: 20%;
     z-index: 1;
