@@ -969,7 +969,8 @@ btn-group a:nth-of-type(2):hover{
     flex-direction: column;
     text-align: left;
     justify-content: space-between;
-    margin: 0px 100px 120px 2px;
+    width: 100%;
+    margin-bottom:10rem;
   }
   .home-content h1 {
     display: flex;
@@ -988,7 +989,7 @@ btn-group a:nth-of-type(2):hover{
     margin: 0 0 0 0;
   }
   .home-content .social-icons{
-    margin-left: 0px;
+    width: 100%;
   }
   .home-content .btn-group{
     margin-left: 0px
