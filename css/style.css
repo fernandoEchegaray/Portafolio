@@ -165,14 +165,14 @@ section{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
   background: transparent;
   border: 2px solid var(--main-color);
-  font-size: 2.5rem;
+  font-size: 6rem;
   border-radius: 50%;
   color: var(--main-color);
-  margin: 3rem 1.5rem 3rem 0;
+  margin: 3rem 0rem 3rem 0;
   transition: 0.3s ease-in-out;
   text-decoration: none;
 }
@@ -996,19 +996,19 @@ btn-group a:nth-of-type(2):hover{
     align-items: center;
   }
   .social-icons a{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 8rem;
-  height: 8rem;
-  background: transparent;
-  /*border: 2px solid var(--main-color);*/
-  font-size: 6rem;
-  /*border-radius: 50%;*/
-  color: var(--main-color);
-  margin: 3rem 1.5rem 3rem 0;
-  transition: 0.3s ease-in-out;
-  text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    background: transparent;
+    /*border: 2px solid var(--main-color);*/
+    font-size: 6rem;
+    /*border-radius: 50%;*/
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
   }
   .social-icons a:hover{
     color: var(--text-color);
@@ -1016,10 +1016,10 @@ btn-group a:nth-of-type(2):hover{
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
   }
-    .contact{
-      padding: 280px 10px;
-      background: var(--second-bg-color);
-      background-size: 100%;
+  .contact{
+    padding: 280px 10px;
+    background: var(--second-bg-color);
+    background-size: 100%;
   }
   .span2{
     color: var(--main-color);
