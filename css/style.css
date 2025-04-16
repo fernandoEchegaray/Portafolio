@@ -944,7 +944,7 @@ btn-group a:nth-of-type(2):hover{
     position: relative;
     width: 180px;
     height: 180px;
-    margin: 12rem 11rem 0rem 0rem; 
+    margin: 12rem 11rem 0rem 14rem; 
   }  
   .me{
     position: absolute; /* Posiciona la imagen del frente */
