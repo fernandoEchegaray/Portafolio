@@ -970,7 +970,7 @@ btn-group a:nth-of-type(2):hover{
     text-align: left;
     justify-content: space-between;
     width: 100%;
-    margin-bottom:10rem;
+    margin: 0px 0px 120px 2px;
   }
   .home-content h1 {
     display: flex;
@@ -986,7 +986,7 @@ btn-group a:nth-of-type(2):hover{
     font-weight: 400;
     line-height: 1.8;
     width: 100%;
-    margin: 0 0 0 0;
+    margin: 0px 0px 0px 2px;
   }
   .home-content .social-icons{
     width: 100%;
