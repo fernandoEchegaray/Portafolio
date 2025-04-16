@@ -944,8 +944,8 @@ btn-group a:nth-of-type(2):hover{
     position: relative;
     width: 180px;
     height: 180px;
-    margin: 12rem 11rem 0rem 14rem; 
-  }  
+    margin: 10rem 11rem 0rem 14rem; 
+  }  g
   .me{
     position: absolute; /* Posiciona la imagen del frente */
     top: 0;
@@ -981,7 +981,7 @@ btn-group a:nth-of-type(2):hover{
     margin-left: 0px; 
   }
   .home-content p{
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     font-weight: 400;
     line-height: 1.8;
     width: 100%;
