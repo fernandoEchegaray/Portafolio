@@ -1022,7 +1022,7 @@ section{
     font-size: 4.5rem;
   }
   .home-content .btnn:hover::after{
-  transform: rotate(150deg);
+    transform: rotate(150deg);
   }
   .home-content .btnnn{
     font-size: 4.5rem;
