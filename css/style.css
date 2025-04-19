@@ -1006,7 +1006,7 @@ btn-group a:nth-of-type(2):hover{
     font-size: 6rem;
     /*border-radius: 50%;*/
     color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
+    margin: 3rem 7rem 3rem 0;
     transition: 0.3s ease-in-out;
     text-decoration: none;
   }
@@ -1015,6 +1015,12 @@ btn-group a:nth-of-type(2):hover{
     transform: scale(1.3)translateY(-5px);
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
+  }
+  btn-group{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 0rem 0rem 6rem;
   }
   .contact{
     padding: 280px 10px;
