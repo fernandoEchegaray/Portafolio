@@ -185,7 +185,7 @@ section{
 .btnn{
   text-decoration: none;
   padding: 1rem 4rem;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 0.2rem;
   position: relative;
   margin: 10px;
@@ -224,7 +224,7 @@ section{
 .btnnn{
   text-decoration: none;
   padding: 1rem 4rem;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 0.2rem;
   position: relative;
   margin: 10px;
@@ -1003,7 +1003,7 @@ section{
     font-size: 9rem;
     /*border-radius: 50%;*/
     color: var(--main-color);
-    margin: 3rem 1rem 3rem 0;
+    margin: 3rem 2rem 3rem 0;
     transition: 0.3s ease-in-out;
     text-decoration: none;
   }
@@ -1015,9 +1015,13 @@ section{
   }
   .home-content .btn-group{
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 1rem;
     padding: 0rem 0rem 0rem 8rem;
+  }
+  .home-content .btnn{
+    font-size: 
   }
   .contact{
     padding: 280px 10px;
