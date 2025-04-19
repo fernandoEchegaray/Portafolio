@@ -900,6 +900,9 @@ section{
     font-family: "Bebas Neue", sans-serif;
     width: 100%;
   }
+  .logo:hover{
+    transform: none;
+  }  
   .span1{
     color: var(--main-color);
     font-size: 7rem;
