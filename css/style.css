@@ -53,6 +53,7 @@ body{
   text-shadow: 0 0 25px var(--main-color);
   font-family: "Bebas Neue", sans-serif;
   color: var(--main-color);
+  font-size: 8rem;
 }
 
 .navbar {
@@ -72,9 +73,10 @@ body{
   color: var(--main-color);
 }
 #menu-icon{
-  font-size: 8rem;
+  font-size: 7rem;
   color: var(--main-color);
   display: none;
+  margin-bottom: 1rem;
 }
 section{
   min-height: 100vh;
@@ -93,9 +95,7 @@ section{
   margin: 130px 0px 120px 80px;
 }
 .span1{
-  color: var(--main-color);
-  font-size: 8rem;
-}
+  
 
 
 
