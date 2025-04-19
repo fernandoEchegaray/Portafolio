@@ -886,9 +886,10 @@ section{
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
-    justify-content: column;
-    align-items: left;
+    justify-content: space-between;
+    align-items: center;
     z-index: 5;
+    padding: 0rem 0rem;
   }
   .logo{
     font-size: 8rem;
@@ -904,7 +905,7 @@ section{
   }  
   .logo .span1{
     color: var(--main-color);
-    font-size: 8rem;
+    font-size: 7rem;
   }
   h2{
     font-size: 25px;
