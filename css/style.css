@@ -990,7 +990,7 @@ section{
   .home-content .social-icons{
     width: 100%;
     align-items: center;
-    padding: 0rem 1rem 0rem 3rem;
+    padding: 0rem 1rem 0rem 2rem;
   }
   .home-content .social-icons a{
     display: inline-flex;
@@ -1021,7 +1021,10 @@ section{
     padding: 0rem 0rem 0rem 8rem;
   }
   .home-content .btnn{
-    font-size: 
+    font-size: 4.5rem;
+  }
+  .home-content .btnnn{
+    font-size: 4.5rem;
   }
   .contact{
     padding: 280px 10px;
