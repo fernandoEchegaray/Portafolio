@@ -1010,8 +1010,6 @@ section{
   .home-content .social-icons a:hover{
     color: var(--text-color);
     transform: scale(1.3)translateY(-5px);
-    /*box-shadow: 0 0 25px var(--main-color);
-    background-color: var(--main-color);*/
   }
   .home-content .btn-group{
     display: flex;
@@ -1023,8 +1021,14 @@ section{
   .home-content .btnn{
     font-size: 4.5rem;
   }
+  .home-content .btnn:hover::after{
+  transform: rotate(150deg);
+  }
   .home-content .btnnn{
     font-size: 4.5rem;
+  }
+  .home-content .btnnn{
+    transform: rotate(150deg);   
   }
   .contact{
     padding: 280px 10px;
