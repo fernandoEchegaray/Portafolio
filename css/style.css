@@ -894,7 +894,6 @@ section{
   .logo{
     font-size: 8rem;
     color: var(--text-color);
-    font-weight: 250px;
     cursor: pointer;
     transition: 0.2s ease;
     font-family: "Bebas Neue", sans-serif;
@@ -905,7 +904,7 @@ section{
   }  
   .logo .span1{
     color: var(--main-color);
-    font-size: 9rem;
+    font-size: 8rem;
   }
   h2{
     font-size: 25px;
