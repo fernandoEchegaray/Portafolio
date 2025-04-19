@@ -1027,9 +1027,6 @@ section{
   .home-content .btnnn{
     font-size: 4.5rem;
   }
-  .home-content .btnnn{
-    transform: rotate(150deg);   
-  }
   .contact{
     padding: 280px 10px;
     background: var(--second-bg-color);
