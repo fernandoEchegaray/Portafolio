@@ -900,7 +900,7 @@ section{
     width: 100%;
   }
   .logo:hover{
-    transform: none;
+    transform: scale(1.1);
   }  
   .logo .span1{
     color: var(--main-color);
@@ -938,7 +938,7 @@ section{
   .home-img{
     position: relative;
     width: 180px;
-    height: 190px;
+    height: 200px;
     margin: 8rem 11rem 0rem 14rem; 
   }  
   .me{
