@@ -989,7 +989,7 @@ section{
   }
   .home-content .social-icons{
     width: 100%;
-    texxt-align: center;
+    text-align: center;
     /*padding: 0rem 1.4rem 0rem 1rem;*/
   }
   .home-content .social-icons a{
