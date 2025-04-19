@@ -883,7 +883,6 @@ section{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0rem 0rem 0rem 6rem;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
@@ -905,7 +904,7 @@ section{
   }  
   .span1{
     color: var(--main-color);
-    font-size: 7rem;
+    font-size: 8rem;
   }
   h2{
     font-size: 25px;
@@ -1037,24 +1036,3 @@ section{
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
