@@ -218,9 +218,9 @@ section{
   transform: translate(0, -6px);
   box-shadow: 10px -10px 25px 0 rgba(16, 226, 253, 0.5), -10px 10px 25px 0 rgba(183, 0, 225, 0.7);
 }
-/*.btnn:hover::after{
+.btnn:hover::after{
   transform: rotate(150deg);
-}*/
+}
 .btnnn{
   text-decoration: none;
   padding: 1rem 4rem;
