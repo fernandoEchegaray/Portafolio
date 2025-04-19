@@ -991,7 +991,7 @@ btn-group a:nth-of-type(2):hover{
     align-items: center;
     padding: 0rem 1rem 0rem 3rem;
   }
-  .social-icons a{
+  .home-content .social-icons a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -1002,7 +1002,7 @@ btn-group a:nth-of-type(2):hover{
     font-size: 6rem;
     /*border-radius: 50%;*/
     color: var(--main-color);
-    margin: 3rem 7rem 3rem 0;
+    margin: 3rem 0rem 3rem 0;
     transition: 0.3s ease-in-out;
     text-decoration: none;
   }
@@ -1012,7 +1012,7 @@ btn-group a:nth-of-type(2):hover{
     /*box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);*/
   }
-  .btn-group{
+  .home content .btn-group{
     display: flex;
     align-items: center;
     gap: 1rem;
