@@ -1052,13 +1052,7 @@ section{
     transition: 0.3s ease-in-out;
   }
   .service-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-    width: 100%;
-    justify-content: center;
-    padding: 1rem 2rem 0rem 1rem;
+    grid-template-columns: repeat(1, 1fr);
   }
   
 
