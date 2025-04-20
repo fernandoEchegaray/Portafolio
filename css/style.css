@@ -915,9 +915,12 @@ section{
     height: 470px;
     width: 600px;
   }
-  .service-info p{
-    font-size: 25px ;
-
+  .service-info p {
+    font-size: 14px;
+    font-weight: 600;
+    max-height: 100px;
+    line-height: 1.7;
+    margin: auto;
   }
   .service-box .service-info{
     display: flex;
@@ -1048,5 +1051,15 @@ section{
     cursor: pointer;
     transition: 0.3s ease-in-out;
   }
+  .service-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem 2rem 0rem 1rem;
+  }
+  
 
 }
