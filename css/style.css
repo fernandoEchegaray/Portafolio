@@ -1033,13 +1033,13 @@ section{
     font-size: 5rem;
   }
   .service{
-    width; 100%;
+    width: 100%;
   }
   .span3{
     color: var(--main-color);
     font-size: 3rem;
   }
-  .timeline-content{
+  .timeline-item .timeline-content{
     background-color: var(--bg-color);
     border: 3px solid var(--main-color);
     padding: 5px 7px;
