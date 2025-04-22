@@ -477,8 +477,7 @@ section{
 
 .carrusel {
   position: relative;
-  width: 100%;
-  heigth: 100%;
+  height: 200px; /* Ajusta la altura según sea necesario */
   overflow: hidden;
 }
 .carrusel-inner {
@@ -491,7 +490,8 @@ section{
 }
 .carrusel-item img{
   width: 100%;
-  border-radius: 5px;
+  height: 100%;
+  object-fit: cover; /* Para que la imagen cubra el área del contenedor */
 }
 .carrusel button{
   position: absolute;
@@ -528,12 +528,9 @@ section{
   gap: 2.5rem;
 }
 .service-box{
-  background-color: var(--main-color);
-  height: 350px;
-  border-radius: 3rem;
-  border: 5px solid transparent;
-  cursor: pointer;
-  transition: 0.4s ease-in-out;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 /*.service-box:hover{
   background: white;
@@ -543,14 +540,11 @@ section{
   
 }*/
 .service-box .service-info{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  max-height: 200px;
-  justify-content: left;
-  align-items: baseline;
-  padding: 5rem 5rem;
-}
+  width: 45%; /* Ajusta según sea necesario */
+  margin: 20px;
+  background-color: #f0f0f0; /* Color de fondo para el contenedor */
+  border-radius: 10px;
+  overflow: hidden; /* Para que el contenido no se desborde */}
 .service-info h4{
   font-size: 3rem;
   font-weight: 600;
