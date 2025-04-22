@@ -475,20 +475,20 @@ section{
 }
 /*Inicio carusel*/
 
-.carrusel {
+.service-info .carrusel{
   position: relative;
   height: 200px; /* Ajusta la altura según sea necesario */
   overflow: hidden;
 }
-.carrusel-inner {
+.carrusel .carrusel-inner {
   display: flex;
   transition: transform 0.5s ease;
 }
-.carrusel-item {
+.carrusel .carrusel-item {
   min-width: 100%;
   box-sizing: border-box;
 }
-.carrusel-item img{
+.carrusel .carrusel-item img{
   width: 100%;
   height: 100%;
   object-fit: cover; /* Para que la imagen cubra el área del contenedor */
@@ -503,10 +503,10 @@ section{
   padding: 10px;
   border-radius: 5px;
 }
-.prev{
+.carrusel .prev{
   left: 10px;
 }
-.next{
+.carrusel .next{
   rigth: 10%;
 }
 
