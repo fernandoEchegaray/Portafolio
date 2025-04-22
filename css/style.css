@@ -15,7 +15,7 @@
   --main-color:#FAE262;
 }
 html{
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   font-size: 9px;
 }
 
