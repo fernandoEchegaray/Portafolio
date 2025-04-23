@@ -503,11 +503,11 @@ section{
   padding: 10px;
   border-radius: 5px;
 }
-.carrusel .prev{
+button.prev{
   left: 10px;
 }
-.carrusel .next{
-  rigth: 10%;
+button.next{
+  rigth: 10px;
 }
 
 /*fin  de carusel*/
