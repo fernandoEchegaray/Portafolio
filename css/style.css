@@ -477,8 +477,9 @@ section{
 
 .service-info .carrusel{
   position: relative;
-  height: 200px; /* Ajusta la altura según sea necesario */
+  width: 60rem; /* Ajusta la altura según sea necesario */
   overflow: hidden;
+  padding: 7rem 0rem 0rem 1.7rem;
 }
 .carrusel .carrusel-inner {
   display: flex;
@@ -503,10 +504,10 @@ section{
   padding: 10px;
   border-radius: 5px;
 }
-button.prev{
+button .prev{
   left: 10px;
 }
-button.next{
+button .next{
   rigth: 10px;
 }
 
@@ -533,13 +534,12 @@ button.next{
   flex-wrap: wrap;
   justify-content: space-around;
 }
-/*.service-box:hover{
+.service-box:hover{
   background: white;
   color: black;
   border: 5px solid var(--main-color);
   transform: scale(1.03);
-  
-}*/
+}
 .service-box .service-info{
   width: 100%; 
   background-color: #f0f0f0;
