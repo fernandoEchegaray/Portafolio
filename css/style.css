@@ -542,9 +542,10 @@ button.next{
 }*/
 .service-box .service-info{
   width: 100%; 
-  background-color: #f0f0f0; /* Color de fondo para el contenedor */
+  background-color: #f0f0f0;
   border-radius: 10px;
-  overflow: hidden; /* Para que el contenido no se desborde */
+  overflow: hidden;
+  text-align: center;
 }
 
 .service-info h4{
