@@ -1,4 +1,4 @@
- *{
+*{
   margin: 0;
   padding: 0; 
   box-sizing: border-box;
@@ -110,9 +110,9 @@ section{
   font-size: 5rem;
 }
 .home-img{
-  position: relative; /* Necesario para posicionar los hijos */
-  width: 480px; /* Ajusta el ancho según sea necesario */
-  height: 480px;  /*Ajusta la altura según sea necesario */
+  position: relative;
+  width: 480px; 
+  height: 480px;
   margin: 12rem 11rem 0rem 0rem;
 }
 
@@ -127,19 +127,19 @@ section{
   margin-right: 150px;
 }  
 .me{
-  position: absolute; /* Posiciona la imagen del frente */
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* Asegura que ocupe todo el contenedor */
-  height: 100%; /* Mantiene la proporción */
+  width: 100%; 
+  height: 100%; 
   z-index: 2;
 }
 .me-back{
-  position: absolute; /* Posiciona la imagen de fondo */
+  position: absolute; 
   top: 0;
   left: 0;
-  width: 100%; /* Asegura que ocupe todo el contenedor */
-  height: 100%; /* Mantiene la proporción */
+  width: 100%;
+  height: 100%;
   z-index: 1;
 }
 .home-img img:hover{
@@ -526,6 +526,7 @@ button.next{
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   gap: 2.5rem;
+  padding: 0rem 9rem 0rem 11rem;
 }
 .service-box{
   display: flex;
@@ -540,8 +541,7 @@ button.next{
   
 }*/
 .service-box .service-info{
-  width: 45%; /* Ajusta según sea necesario */
-  margin: 20px;
+  width: 100%; 
   background-color: #f0f0f0; /* Color de fondo para el contenedor */
   border-radius: 10px;
   overflow: hidden; /* Para que el contenido no se desborde */
@@ -552,6 +552,7 @@ button.next{
   font-weight: 600;
   max-height:1.7;
   margin: auto;
+  
 }
 .service-info p{
   font-size: 1.8rem;
