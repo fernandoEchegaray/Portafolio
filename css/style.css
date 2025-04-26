@@ -546,6 +546,9 @@ button.next{
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
+  padding: 10px;
+  align-items: center;
+  height: 59rem;
 }
 
 .service-info h4{
@@ -558,15 +561,15 @@ button.next{
 .service-info p{
   font-size: 1.8rem;
   font-weight: 600;
-  max-height: 100px;
+  : 100px;
   line-height: 1.7;
   margin: auto;
 }
-.testimonials{
+/*.testimonials{
   background: var(--second-bg-color);
   
 }
-/*.testimonials-box{
+.testimonials-box{
   background-size: cover;
   display: flex;
   align-items: center;
