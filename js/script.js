@@ -32,19 +32,30 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    let index = 0;
-    function cambiarImagen(direccion) {
-        const items = document.querySelectorAll('.carrusel-item');
-        index += direccion;
-        if (index < 0) {
-            index = items.length - 1; // Regresa al último elemento
-        } else if (index >= items.length) {
-            index = 0; // Regresa al primer elemento
+    // Inicializa un objeto para almacenar índices de cada carrusel
+    const indices = {
+        bar: 0,
+        moc: 0,
+        dev: 0,
+        man: 0,
+    };
+    function cambiarImagen(direccion, id) {
+        const items = document.querySelectorAll(`#${id} .carrusel-item`);
+        indices[id] += direccion;
+        // Asegúrate de que el índice esté dentro de los límites
+        if (indices[id] < 0) {
+            indices[id] = items.length - 1; // Regresa al último elemento
+        } else if (indices[id] >= items.length) {
+            indices[id] = 0; // Regresa al primer elemento
         }
-        const offset = -index * 100; // Calcula el desplazamiento
-        document.querySelector('.carrusel-inner').style.transform = `translateY(${offset}%)`;
+        const offset = -indices[id] * 100; // Calcula el desplazamiento
+        document.querySelector(`#${id} .carrusel-inner`).style.transform = `translateX(${offset}%)`;
     }
-    // Asignar eventos a los botones
-    document.querySelector('.prev').onclick = () => cambiarImagen(-1);
-    document.querySelector('.next').onclick = () => cambiarImagen(1);
+    // Asignar eventos a los botones (si no se hace en el HTML)
+    document.querySelectorAll('.prev').forEach(button => {
+        button.onclick = () => cambiarImagen(-1, button.closest('.service-info').id);
+    });
+    document.querySelectorAll('.next').forEach(button => {
+        button.onclick = () => cambiarImagen(1, button.closest('.service-info').id);
+    });
 });
