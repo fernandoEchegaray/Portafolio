@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             index = 0; // Regresa al primer elemento
         }
         const offset = -index * 100; // Calcula el desplazamiento
-        document.querySelector('.carrusel-inner').style.transform = `translateX(${offset}%)`;
+        document.querySelector('.carrusel-inner').style.transform = `translateY(${offset}%)`;
     }
     // Asignar eventos a los botones
     document.querySelector('.prev').onclick = () => cambiarImagen(-1);
