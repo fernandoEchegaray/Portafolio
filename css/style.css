@@ -479,7 +479,7 @@ section{
   position: relative;
   width: 60rem; /* Ajusta la altura según sea necesario */
   overflow: hidden;
-  padding: 7rem 0rem 0rem 1.7rem;
+  padding: 0rem 0rem 0rem 0rem;
 }
 .carrusel .carrusel-inner {
   display: flex;
@@ -498,17 +498,17 @@ section{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #d3d3d3;
   border: none;
   cursor: pointer;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 5px;
+  border-radius: 15px;
 }
-button .prev{
+.prev{
   left: 10px;
 }
-button .next{
-  rigth: 10px;
+.next{
+  right: 10px;
 }
 
 /*fin  de carusel*/
@@ -530,38 +530,44 @@ button .next{
   padding: 0rem 9rem 0rem 11rem;
 }
 .service-box{
+  width: auto;
+  position: relative;
+  height: 42rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background: var(--main-color);
+  border-radius: 15px;
+  transition: 0.3s ease-in-out;
 }
 .service-box:hover{
   background: white;
   color: black;
-  border: 5px solid var(--main-color);
   transform: scale(1.03);
+  box-shadow: 0 0 20px white;
 }
 .service-box .service-info{
-  width: 100%; 
-  background-color: #f0f0f0;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 15px;
   overflow: hidden;
   text-align: center;
-  padding: 10px;
   align-items: center;
   height: 59rem;
+  display: flex;
+  flex-direction: column;
+}
 }
 
 .service-info h4{
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 700px;
   max-height:1.7;
-  margin: auto;
+  margin: 0rem 0rem 0rem 0rem;
   
 }
 .service-info p{
   font-size: 1.8rem;
   font-weight: 600;
-  : 100px;
   line-height: 1.7;
   margin: auto;
 }
