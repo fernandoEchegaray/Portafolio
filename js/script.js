@@ -31,15 +31,20 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 });
 
-let index = 0;
-function cambiarImagen(direccion) {
-    const items = document.querySelectorAll('.carrusel-item');
-    index += direccion;
-    if (index < 0) {
-        index = items.length - 1;
-    } else if (index >= items.length) {
-        index = 0;
+document.addEventListener('DOMContentLoaded', () => {
+    let index = 0;
+    function cambiarImagen(direccion) {
+        const items = document.querySelectorAll('.carrusel-item');
+        index += direccion;
+        if (index < 0) {
+            index = items.length - 1; // Regresa al último elemento
+        } else if (index >= items.length) {
+            index = 0; // Regresa al primer elemento
+        }
+        const offset = -index * 100; // Calcula el desplazamiento
+        document.querySelector('.carrusel-inner').style.transform = `translateX(${offset}%)`;
     }
-    const offset = -index * 100;
-    document.querySelector('.carrusel-inner').style.transform = `translateX(${offset}%)`;
-}
+    // Asignar eventos a los botones
+    document.querySelector('.prev').onclick = () => cambiarImagen(-1);
+    document.querySelector('.next').onclick = () => cambiarImagen(1);
+});
