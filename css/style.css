@@ -477,9 +477,9 @@ section{
 
 .service-info .carrusel{
   position: relative;
-  width: 60rem; /* Ajusta la altura según sea necesario */
+  width: 41rem;
   overflow: hidden;
-  padding: 0rem 0rem 0rem 0rem;
+  padding: 1rem 0rem 0rem 0rem;
 }
 .carrusel .carrusel-inner {
   display: flex;
@@ -555,7 +555,7 @@ section{
   height: 59rem;
   display: flex;
   flex-direction: column;
-}
+  padding: 10px;
 }
 
 .service-info h4{
@@ -567,9 +567,8 @@ section{
 }
 .service-info p{
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.7;
-  margin: auto;
 }
 /*.testimonials{
   background: var(--second-bg-color);
