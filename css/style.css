@@ -480,6 +480,7 @@ section{
   width: 41rem;
   overflow: hidden;
   padding: 1rem 0rem 0rem 0rem;
+  height: 26rem;
 }
 .carrusel .carrusel-inner {
   display: flex;
@@ -505,10 +506,10 @@ section{
   border-radius: 15px;
 }
 .prev{
-  left: 10px;
+  left: 0px;
 }
 .next{
-  right: 10px;
+  right: 0px;
 }
 
 /*fin  de carusel*/
@@ -532,7 +533,7 @@ section{
 .service-box{
   width: auto;
   position: relative;
-  height: 42rem;
+  height: 49rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
