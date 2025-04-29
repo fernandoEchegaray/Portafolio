@@ -1036,15 +1036,20 @@ section{
   }
   .service-container {
     grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0px 15px;
   }
   .service-box{
-    height: 470px;
-    width: 600px;
+    height: 43rem;
+    width: 100%;
   }
   .service-info p {
     font-size: 14px;
     font-weight: 600;
-    max-height: 100px;
+    height: 25rem;
     line-height: 1.7;
     margin: auto;
   }
@@ -1052,11 +1057,11 @@ section{
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-height: 170px;
-    justify-content: left;
-    align-items: baseline;
+    height: auto;
+    justify-content: center;
+    align-items: center;
     padding: 1rem 1rem;
-    width: 550px;  
+    width: 100%; 
   }
   .service-info h4 {
     font-size: 3rem;
