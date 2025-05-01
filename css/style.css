@@ -1054,6 +1054,11 @@ section{
     line-height: 1.7;
     margin: auto;
   }
+  
+  
+  
+  
+  
   .service-box .service-info{
     display: flex;
     flex-direction: column;
@@ -1071,5 +1076,42 @@ section{
     margin: auto;
   }
 
+
+  .service-info .carrusel{
+  position: relative;
+  width: 41rem;
+  overflow: hidden;
+  padding: 1rem 0rem 0rem 0rem;
+  height: 26rem;
+}
+.carrusel .carrusel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.carrusel .carrusel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.carrusel .carrusel-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para que la imagen cubra el área del contenedor */
+}
+.carrusel button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #d3d3d3;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 15px;
+}
+.prev{
+  left: 0px;
+}
+.next{
+  right: 0px;
+}
 
 }
