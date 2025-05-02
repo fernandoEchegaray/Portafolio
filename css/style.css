@@ -749,7 +749,7 @@ section{
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-height: 200px;
+    height: auto;
     justify-content: left;
     align-items: baseline;
     padding: 5rem 3rem;
@@ -861,7 +861,7 @@ section{
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-height: 200px;
+    height: auto;
     justify-content: left;
     align-items: baseline;
     padding: 3rem 1rem;
@@ -1043,7 +1043,7 @@ section{
     padding: 0px 15px;
   }
   .service-box{
-    height: auto;
+    height: 70rem;
     width: 100%;
   }
   .service-info p {
