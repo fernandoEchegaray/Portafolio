@@ -534,7 +534,7 @@ section{
 .service-box{
   width: auto;
   position: relative;
-  height: 49rem;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -554,7 +554,7 @@ section{
   overflow: hidden;
   text-align: center;
   align-items: center;
-  height: 59rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -1043,7 +1043,7 @@ section{
     padding: 0px 15px;
   }
   .service-box{
-    height: 43rem;
+    height: auto;
     width: 100%;
   }
   .service-info p {
