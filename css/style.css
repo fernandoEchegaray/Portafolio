@@ -1077,9 +1077,9 @@ section{
 
   .service-info .carrusel{
     position: relative;
-    width: 41rem;
+    width: 48rem;
     overflow: hidden;
-    padding: 1rem 0rem 0rem 0rem;
+    padding: 1rem 0rem 0rem 1rem;
     height: 26rem;
     display: grid;
   }
