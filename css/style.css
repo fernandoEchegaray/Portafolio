@@ -529,7 +529,7 @@ section{
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   gap: 2.5rem;
-  padding: 0rem 9rem 0rem 11rem;
+  padding: 0rem 11rem 0rem 9rem;
 }
 .service-box{
   width: auto;
