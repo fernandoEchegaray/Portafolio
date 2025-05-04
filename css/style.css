@@ -482,6 +482,7 @@ section{
   overflow: hidden;
   padding: 1rem 0rem 0rem 0rem;
   height: 26rem;
+  border-radius: 15px;
 }
 .carrusel .carrusel-inner {
   display: flex;
@@ -561,7 +562,7 @@ section{
 }
 
 .service-info h4{
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 700px;
   max-height:1.7;
   margin: 0rem 0rem 0rem 0rem;
