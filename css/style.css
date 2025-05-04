@@ -495,7 +495,8 @@ section{
 .carrusel .carrusel-item img{
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Para que la imagen cubra el área del contenedor */
+  object-fit: cover;
+  border-radius: 15px;
 }
 .carrusel button{
   position: absolute;
