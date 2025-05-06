@@ -1046,15 +1046,19 @@ section{
     padding: 0px 15px;
   }
   .service-box{
-    height: 70rem;
+    height: auto;
     width: 100%;
   }
+  #moc-box{
+    height: 98rem; 
+
+  }
   .service-info p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
-    height: 25rem;
+    height: 30rem;
     line-height: 1.7;
-    margin: 0rem 0rem 4rem 0rem;
+    margin: 0;
   }
   
   
@@ -1071,20 +1075,19 @@ section{
     width: 100%; 
   }
   .service-info h4 {
-    font-size: 3rem;
-    font-weight: 600;
-    max-height: 1.7;
-    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 800;
+    text-decoration: underline;
   }
 
 
   .service-info .carrusel{
     position: relative;
-    width: 48rem;
+    width: 60rem;
     overflow: hidden;
-    padding: 1rem 0rem 0rem 1rem;
-    height: 26rem;
+    padding: 0;
     display: grid;
+    height: auto;
   }
   .carrusel .carrusel-inner {
     display: flex;
@@ -1097,7 +1100,8 @@ section{
   .carrusel .carrusel-item img{
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Para que la imagen cubra el área del contenedor */
+    object-fit: cover;
+    border-radius: 15px;
   }
   .carrusel button{
     position: absolute;
