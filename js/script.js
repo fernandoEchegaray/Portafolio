@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Inicializa un objeto para almacenar índices de cada carrusel
+    // almaceneen de índices carrusel
     const indices = {
         bar: 0,
         moc: 0,
@@ -42,16 +42,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function cambiarImagen(direccion, id) {
         const items = document.querySelectorAll(`#${id} .carrusel-item`);
         indices[id] += direccion;
-        // Asegúrate de que el índice esté dentro de los límites
+        // índice dentro límites
         if (indices[id] < 0) {
-            indices[id] = items.length - 1; // Regresa al último elemento
+            indices[id] = items.length - 1; // va al último elemento
         } else if (indices[id] >= items.length) {
             indices[id] = 0; // Regresa al primer elemento
         }
-        const offset = -indices[id] * 100; // Calcula el desplazamiento
+        const offset = -indices[id] * 100; // desplazamiento (calculo)
         document.querySelector(`#${id} .carrusel-inner`).style.transform = `translateX(${offset}%)`;
     }
-    // Asignar eventos a los botones (si no se hace en el HTML)
+    
     document.querySelectorAll('.prev').forEach(button => {
         button.onclick = () => cambiarImagen(-1, button.closest('.service-info').id);
     });
@@ -59,3 +59,37 @@ document.addEventListener('DOMContentLoaded', () => {
         button.onclick = () => cambiarImagen(1, button.closest('.service-info').id);
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  //overlay 
+  const overlay = document.createElement('div');
+  overlay.className = 'fullscreen-overlay';
+  document.body.appendChild(overlay);
+  //close button
+  const closeButton = document.createElement('button');
+  closeButton.className = 'close-button';
+  closeButton.innerHTML = '×';
+  overlay.appendChild(closeButton);
+  // fullscreen image 
+  const fullscreenImage = document.createElement('img');
+  fullscreenImage.className = 'fullscreen-image';
+  overlay.appendChild(fullscreenImage);
+  // Manejar clic en imágenes 
+  document.querySelectorAll('.carrusel-item img').forEach(img => {
+      img.addEventListener('click', () => {
+          fullscreenImage.src = img.src;
+          overlay.classList.add('active');
+      });
+  });
+  //cierre del overlay
+  closeButton.addEventListener('click', () => {
+      overlay.classList.remove('active');
+  });
+  // Cerrar también  xD
+  overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) {
+          overlay.classList.remove('active');
+      }
+  });
+});
+
