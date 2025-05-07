@@ -1048,15 +1048,16 @@ section{
   .service-box{
     height: auto;
     width: 100%;
+    padding-bottom: 0.8rem;
   }
   #moc-box{
-    height: 98rem; 
+    height: auto; 
 
   }
   .service-info p {
     font-size: 18px;
     font-weight: 600;
-    height: 30rem;
+    height: auto;
     line-height: 1.7;
     margin: 0;
   }
@@ -1112,6 +1113,7 @@ section{
     cursor: pointer;
     padding: 5px;
     border-radius: 15px;
+    font-size: 6rem;
   }
   .prev{
     left: 0px;
