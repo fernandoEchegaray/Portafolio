@@ -640,6 +640,9 @@ section{
   background: var(--second-bg-color);
   background-size: 100%;
 }
+.span4 {
+  color: var(--main-color);
+}
 .contact h2{
   margin-bottom: 3rem;
   color: white;
@@ -1013,7 +1016,7 @@ section{
     font-size: 4.5rem;
   }
   .contact{
-    padding: 280px 10px;
+    padding: auto 10px;
     background: var(--second-bg-color);
     background-size: 100%;
   }
