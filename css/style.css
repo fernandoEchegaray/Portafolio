@@ -478,9 +478,9 @@ section{
 
 .service-info .carrusel{
   position: relative;
-  width: 41rem;
+  width: auto;
   overflow: hidden;
-  padding: 1rem 0rem 0rem 0rem;
+  padding: 0rem;
   height: 33rem;
   border-radius: 15px;
 }
@@ -491,12 +491,12 @@ section{
 .carrusel .carrusel-item {
   min-width: 100%;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .carrusel .carrusel-item img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 15px;
   transitiom: transform 0.3s ease;
 }
 .fullscreen-overlay {
@@ -544,7 +544,7 @@ section{
   cursor: pointer;
   padding: 5px;
   border-radius: 15px;
-  font-size: 3rem;
+  font-size: 6rem;
 }
 .prev{
   left: 0px;
