@@ -556,9 +556,10 @@ section{
 /*fin  de carusel*/
 
 
-.service{
-  background: var(--bg-color);
-  color: black;
+.service {
+    background: var(--bg-color);
+    padding: 50px 15px;
+    color: black;
 }
 .service h2{
   margin-bottom: 13rem 0rem 0rem 0rem;
