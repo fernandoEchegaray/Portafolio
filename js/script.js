@@ -93,3 +93,28 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Función para manejar el envío del formulario
+function handleSubmit(event) {
+  event.preventDefault();
+  
+  const formData = {
+      fullName: document.getElementById('fullName').value,
+      email: document.getElementById('email').value,
+      phone: document.getElementById('phone').value,
+      subject: document.getElementById('subject').value,
+      message: document.getElementById('message').value
+  };
+  // Enviar el correo usando EmailJS
+  emailjs.send('service_4fyhgsf', 'template_skcrvg2', formData, 'TIplNNvv_Ilxv8nlB')
+      .then(function(response) {
+          alert('¡Mensaje enviado con éxito!');
+          document.getElementById('contactForm').reset();
+      }, function(error) {
+          alert('Error al enviar el mensaje: ' + error);
+      });
+}
+// Inicializar EmailJS
+document.addEventListener('DOMContentLoaded', function() {
+  emailjs.init("TIplNNvv_Ilxv8nlB");
+});
+
