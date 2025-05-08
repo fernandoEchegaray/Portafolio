@@ -107,7 +107,7 @@ function handleSubmit(event) {
   // Enviar el correo usando EmailJS
   emailjs.send('service_4fyhgsf', 'template_skcrvg2', formData, 'TIplNNvv_Ilxv8nlB')
       .then(function(response) {
-          alert('¡Mensaje enviado con éxito!');
+          alert('¡Hola!. Tu Mensaje ha sido enviado con éxito! Revise su correo.');
           document.getElementById('contactForm').reset();
       }, function(error) {
           alert('Error al enviar el mensaje: ' + error);
