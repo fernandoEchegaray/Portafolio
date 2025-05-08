@@ -278,19 +278,19 @@
     </section>-->
     <section class="contact" id="contact">
         <h2 class="heading">Contácta<span class="span4">me</span></h2>
-        <form action="">
+        <form id="contactForm" onsubmit="handleSubmit(event)">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" id="fullName" name="fullName" placeholder="Nombre Completo" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Numero de Telefono">
-                    <input type="text" placeholder="Asunto">
+                    <input type="number" id="phone" name="phone" placeholder="Numero de Telefono" required>
+                    <input type="text" id="subject" name="subject" placeholder="Asunto" required>
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id="textA" cols="30" rows="12" placeholder="Tu Texto Aqui xD"></textarea>
+                <textarea name="message" id="message" cols="30" rows="12" placeholder="Tu Mensaje Aqui xD" required></textarea>
                 <input type="submit" value="Enviar Mensaje" class="btn">
             </div>
         </form>
