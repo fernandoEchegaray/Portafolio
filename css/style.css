@@ -481,7 +481,7 @@ section{
   width: 41rem;
   overflow: hidden;
   padding: 1rem 0rem 0rem 0rem;
-  height: 26rem;
+  height: 33rem;
   border-radius: 15px;
 }
 .carrusel .carrusel-inner {
@@ -526,7 +526,7 @@ section{
   top: 20px;
   right: 20px;
   color: white;
-  font-size: 30px;
+  font-size: 5rem;
   cursor: pointer;
   background: none;
   border: none;
