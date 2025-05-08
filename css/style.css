@@ -558,7 +558,7 @@ section{
 
 .service {
     background: var(--bg-color);
-    padding: 50px 0px;
+    margin-top: 50px;
     color: black;
 }
 .service h2{
