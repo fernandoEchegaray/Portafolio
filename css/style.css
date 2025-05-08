@@ -697,6 +697,8 @@ section{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 2.6rem; 
+    
 }
 .contact form  .input-box input,
 .contact form textarea{
