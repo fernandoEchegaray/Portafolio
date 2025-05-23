@@ -947,7 +947,7 @@ section{
     padding: 0rem 0rem;
   }
   .logo{
-    font-size: 6rem;
+    font-size: 7rem;
     color: var(--text-color);
     cursor: pointer;
     transition: 0.2s ease;
@@ -959,7 +959,7 @@ section{
   }  
   .logo .span1{
     color: var(--main-color);
-    font-size: 6rem;
+    font-size: 7rem;
   }
   h2{
     font-size: 25px;
