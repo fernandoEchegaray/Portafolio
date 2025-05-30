@@ -102,7 +102,7 @@ function handleSubmit(event) {
       email: document.getElementById('email').value,
       phone: document.getElementById('phone').value,
       subject: document.getElementById('subject').value,
-      message: document.getElementById('message').value
+      message: document.getElementById('message').value,
   };
   // Enviar el correo usando EmailJS
   emailjs.send('service_4fyhgsf', 'template_skcrvg2', formData, 'Zebq3EYvfuMyUHuPs')
