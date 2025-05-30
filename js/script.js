@@ -105,7 +105,7 @@ function handleSubmit(event) {
       message: document.getElementById('message').value
   };
   // Enviar el correo usando EmailJS
-  emailjs.send('service_4fyhgsf', 'template_skcrvg2', formData, 'TIplNNvv_Ilxv8nlB')
+  emailjs.send('service_4fyhgsf', 'template_skcrvg2', formData, 'Zebq3EYvfuMyUHuPs')
       .then(function(response) {
           alert('¡Hola!. Tu Mensaje ha sido enviado con éxito! Revise su correo.');
           document.getElementById('contactForm').reset();
@@ -115,6 +115,6 @@ function handleSubmit(event) {
 }
 // Inicializar EmailJS
 document.addEventListener('DOMContentLoaded', function() {
-  emailjs.init("TIplNNvv_Ilxv8nlB");
+  emailjs.init("Zebq3EYvfuMyUHuPs");
 });
 
