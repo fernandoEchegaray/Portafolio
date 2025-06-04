@@ -782,7 +782,27 @@ section{
   }
   body{ 
     font-size: 55%;
-  }  
+  } 
+  
+  logo {
+    font-size: 7rem;
+    color: var(--text-color);
+    font-weight: 250px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-family: "Bebas Neue", sans-serif;
+    width: 500px;
+  }
+  
+  
+
+  .logo .span1 {
+    text-shadow: 0 0 25px var(--main-color);
+    font-family: "Bebas Neue", sans-serif;
+    color: var(--main-color);
+    font-size: 7rem;
+  }
+  
   .service-container{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2,1fr);
