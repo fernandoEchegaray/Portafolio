@@ -95,26 +95,70 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Función para manejar el envío del formulario
 function handleSubmit(event) {
-  event.preventDefault();
-  
-  const formData = {
-      fullName: document.getElementById('fullName').value,
-      email: document.getElementById('email').value,
-      phone: document.getElementById('phone').value,
-      subject: document.getElementById('subject').value,
-      message: document.getElementById('message').value,
-  };
-  // Enviar el correo usando EmailJS
-  emailjs.send('service_4fyhgsf', 'template_skcrvg2', formData, 'Zebq3EYvfuMyUHuPs')
-      .then(function(response) {
-          alert('¡Hola!. Tu Mensaje ha sido enviado con éxito! Revise su correo.');
-          document.getElementById('contactForm').reset();
-      }, function(error) {
-          alert('Error al enviar el mensaje: ' + error);
-      });
+  try {
+    event.preventDefault();
+    console.log('handleSubmit: Intentando enviar email...');
+
+    const formData = {
+        fullName: document.getElementById('fullName').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+        subject: document.getElementById('subject').value,
+        message: document.getElementById('message').value,
+    };
+    console.log('handleSubmit: Datos del formulario:', formData);
+
+    if (typeof emailjs === 'undefined') {
+      console.error('handleSubmit: EmailJS SDK (emailjs) no está definido.');
+      alert('Error crítico: El servicio de correo no está cargado. Revisa la consola.');
+      return;
+    }
+
+    // Nota: JSON.parse(JSON.stringify(formData)) es usualmente innecesario aquí.
+    // EmailJS espera un objeto simple para los parámetros de la plantilla.
+    // Lo mantenemos por ahora si fue una solución a un problema previo, pero considera `formData` directamente.
+    emailjs.send('service_4fyhgsf', 'template_skcrvg2', JSON.parse(JSON.stringify(formData)), 'Zebq3EYvfuMyUHuPs')
+        .then(function(response) {
+            console.log('EmailJS Éxito:', response.status, response.text);
+            alert('¡Hola!. Tu Mensaje ha sido enviado con éxito! Revise su correo.');
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.reset();
+            }
+        }, function(error) {
+            console.error('EmailJS Error en la promesa:', error);
+            let mensajeError = 'Error al enviar el mensaje.';
+            if (error && typeof error === 'object') {
+                if (error.text) {
+                    mensajeError += ` Detalles: ${error.text}`;
+                } else if (error.status) {
+                    mensajeError += ` Código de estado: ${error.status}.`;
+                }
+            } else if (error) {
+                mensajeError += ` Detalles: ${String(error)}.`;
+            }
+            mensajeError += ' Por favor, revisa la consola del navegador para más información.';
+            alert(mensajeError);
+        });
+  } catch (e) {
+    console.error('Error síncrono en handleSubmit:', e);
+    alert('Ocurrió un error inesperado al procesar el formulario: ' + e.message + '. Revisa la consola.');
+  }
 }
 // Inicializar EmailJS
 document.addEventListener('DOMContentLoaded', function() {
-  emailjs.init("Zebq3EYvfuMyUHuPs");
+  try {
+    if (typeof emailjs === 'undefined') {
+      console.error('EmailJS Init: SDK (emailjs) no está definido. Asegúrate de que el script de EmailJS se carga antes que este.');
+      alert('Error crítico al inicializar: EmailJS SDK no encontrado. El envío de correos no funcionará.');
+      return;
+    }
+    console.log('Inicializando EmailJS...');
+    emailjs.init("Zebq3EYvfuMyUHuPs");
+    console.log('EmailJS inicializado correctamente.');
+  } catch (initError) {
+    console.error('Error durante la inicialización de EmailJS:', initError);
+    alert('Error al inicializar el servicio de correo: ' + (initError.message || initError) + '. El envío de correos no funcionará.');
+  }
 });
 
