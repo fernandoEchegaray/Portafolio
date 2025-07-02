@@ -283,16 +283,16 @@
         <form id="contactForm" onsubmit="handleSubmit(event)">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" id="fullName" name="fullName" placeholder="Nombre Completo" required>
-                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="text" id="fullName" name="fullName" title="Escriba su nombre" placeholder="Nombre Completo" required>
+                    <input type="email" id="email" name="email" title="Ecriba su email" placeholder="Email" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" id="phone" name="phone" placeholder="Numero de Telefono" required>
-                    <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+                    <input type="number" id="phone" title="ingrese su numero de contacto" name="phone" placeholder="Numero de Telefono" required>
+                    <input type="text" id="subject" title="Ingrese su asunto" name="subject" placeholder="Asunto" required>
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea type="text" name="message" id="message" cols="30" rows="12" placeholder="Tu Mensaje Aqui xD" required></textarea>
+                <textarea type="text" name="message" id="message" title="Sí, tu mensaje aquí.." cols="30" rows="12" placeholder="Tu Mensaje Aqui xD" required></textarea>
                 <input type="submit" value="Enviar Mensaje" class="btn">
             </div>
         </form>
