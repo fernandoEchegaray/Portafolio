@@ -814,7 +814,7 @@ section{
   .service-container{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2,1fr);
-    margin: 0 5rem;
+    padding: 0rem 2rem 0rem 2rem;
   }
   .service-box{
     height: 400px;
