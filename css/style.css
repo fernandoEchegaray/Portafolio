@@ -810,6 +810,21 @@ section{
     color: var(--main-color);
     font-size: 6.5rem;
   }
+
+  .header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 11rem;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0rem 0px 1rem 0rem 1rem;
+}
   
   .service-container{
     padding-bottom: 7rem;
@@ -1193,5 +1208,6 @@ section{
   }
 
 }
+
 
 
