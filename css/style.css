@@ -823,7 +823,7 @@ section{
     align-items: center;
     z-index: 5;
     background: rgba(0, 0, 0, 0.3);
-    padding: 0rem 0px 1rem 0rem 1rem;
+    padding: 0px 1px 0px 1px;
   }
   .carrusel .carrusel-item img {
     width: 100%;
@@ -1229,6 +1229,7 @@ section{
   }
 
 }
+
 
 
 
