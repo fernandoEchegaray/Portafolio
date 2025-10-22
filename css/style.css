@@ -1015,6 +1015,11 @@ section{
     flex-direction: column-reverse;
     margin: 5rem 4rem;
   }
+  .home-img img {
+    width: 38rem;
+    margin-top: 30px;
+    height: 38rem;
+  }
   .home-content h3{
     font-size: 2.6rem;
   }
@@ -1298,6 +1303,7 @@ section{
   }
 
 }
+
 
 
 
