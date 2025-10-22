@@ -784,12 +784,14 @@ section{
     font-size: 55%;
   } 
   .navbar a {
-    font-size: 0.7rem;
+    font-size: 2rem;
     color: var(--text-color);
     margin-left: 2.5rem;
     font-weight: 400;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 5px 4px 0px 0px;
   }
   
   .logo {
@@ -799,7 +801,7 @@ section{
     cursor: pointer;
     transition: 0.2s ease;
     font-family: "Bebas Neue", sans-serif;
-    width: 500px;
+    width: 400px;
   }
   
   
@@ -1229,6 +1231,7 @@ section{
   }
 
 }
+
 
 
 
