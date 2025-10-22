@@ -815,11 +815,10 @@ section{
     margin: 110px 0px 120px 1px;
     width: 500px;
   }
-  .home-content .social-icons{
-    width: 70rem;
-    margin: 0rem 0rem 0rem 15rem;
-    
-  } 
+  .home-content .social-icons {
+    position: absolute;
+    margin: 450px 0px 0px 150px;
+  }
   .home-content .btn-group {
     display: flex;
     align-items: center;
@@ -1304,6 +1303,7 @@ section{
   }
 
 }
+
 
 
 
