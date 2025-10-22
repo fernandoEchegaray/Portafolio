@@ -855,8 +855,8 @@ section{
     flex-direction: column;
     text-align: center;
     height: auto;
-    justify-content: left;
-    align-items: baseline;
+    justify-content: center;
+    
   }
   .carrusel .carrusel-item img {
     width: 100%;
@@ -1231,6 +1231,7 @@ section{
   }
 
 }
+
 
 
 
