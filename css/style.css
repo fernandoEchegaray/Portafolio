@@ -786,14 +786,17 @@ section{
   .navbar a {
     font-size: 2rem;
     color: var(--text-color);
-    margin-left: 2.5rem;
+    margin: 0rem 1rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
     font-weight: 400;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
     font-family: "Bebas Neue", sans-serif;
-    margin: 5px 4px 0px 0px;
+    width: 50rem;
   }
-  
+  .navbar {
+    margin: 0rem 1rem 0rem 0rem;
+  }
   .logo {
     font-size: 6.5rem;
     color: var(--text-color);
@@ -805,12 +808,12 @@ section{
   }
 
   .home-content {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  justify-content: left;
-  margin: 110px 0px 120px 1px;
-  width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    margin: 110px 0px 120px 1px;
+    width: 500px;
   }
         
   
@@ -842,6 +845,14 @@ section{
     background: rgba(0, 0, 0, 0.3);
     padding: 0px 1px 0px 1px;
   }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    margin: 90px 33px 120px 3px;
+    width: 60rem;
+  }
   .home-content .social-icons{
     position: absolute;
     margin: 450px 0px 0px 210px;
@@ -856,9 +867,9 @@ section{
   }
   .home-img {
     position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 12rem 0rem 0rem 3rem;
+    width: 260px;
+    height: 260px;
+    margin: 12rem 0rem 0rem 1rem;
   }
   .me {
     position: absolute;
@@ -898,6 +909,10 @@ section{
     height: auto;
     justify-content: center;
     
+  }
+  .span3 {
+    color: var(--main-color);
+    font-size: 4rem;
   }
   .carrusel .carrusel-item img {
     width: 100%;
@@ -1272,6 +1287,7 @@ section{
   }
 
 }
+
 
 
 
