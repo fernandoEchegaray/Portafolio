@@ -848,7 +848,7 @@ section{
     padding: 0rem 2rem 0rem 2rem;
   }
   .service-box{
-    height: 400px;
+    height: 100%;
   }
   .service-box .service-info{
     display: flex;
@@ -1231,6 +1231,7 @@ section{
   }
 
 }
+
 
 
 
