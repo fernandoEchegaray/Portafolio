@@ -815,7 +815,18 @@ section{
     margin: 110px 0px 120px 1px;
     width: 500px;
   }
-        
+  .home-content .social-icons{
+    width: 70rem;
+    margin: 0rem 0rem 0rem 15rem;
+    
+  } 
+  .home-content .btn-group {
+    display: flex;
+    align-items: center;
+    margin: 0rem 0rem 0rem 10rem;
+    width: 70rem;
+    margin: 0rem 0rem 0rem 19rem;
+  }
   
   .home-content h1 {
     font-size: 3rem;
@@ -1287,6 +1298,7 @@ section{
   }
 
 }
+
 
 
 
