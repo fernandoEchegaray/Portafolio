@@ -803,6 +803,24 @@ section{
     font-family: "Bebas Neue", sans-serif;
     width: 400px;
   }
+
+  .home-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  margin: 110px 0px 120px 1px;
+  width: 500px;
+  }
+        
+  
+  .home-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+    width: 500px;
+  }
   .logo .span1 {
     text-shadow: 0 0 25px var(--main-color);
     font-family: "Bebas Neue", sans-serif;
@@ -823,6 +841,10 @@ section{
     z-index: 5;
     background: rgba(0, 0, 0, 0.3);
     padding: 0px 1px 0px 1px;
+  }
+  .home-content .social-icons{
+    position: absolute;
+    margin: 450px 0px 0px 210px;
   }
   .carrusel .carrusel-item img {
     width: 100%;
@@ -1234,6 +1256,7 @@ section{
   }
 
 }
+
 
 
 
