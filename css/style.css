@@ -1153,10 +1153,11 @@ section{
     width: 95%;
     margin: 0px 2px 0px 2px;
   }
-  .home-content .social-icons{
+  .home-content .social-icons {
     width: 100%;
     text-align: center;
-    /*padding: 0rem 1.4rem 0rem 1rem;*/
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 90rem 0rem 0rem 0rem;
   }
   .home-content .social-icons a{
     display: inline-flex;
@@ -1303,6 +1304,7 @@ section{
   }
 
 }
+
 
 
 
