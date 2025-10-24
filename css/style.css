@@ -865,7 +865,7 @@ section{
   }
   .home-content .social-icons{
     position: absolute;
-    margin: 450px 0px 0px 210px;
+    margin: 450px 0px 0px 120px;
   }
   .home-content .social-icons a{
     display: inline-flex;
@@ -1319,6 +1319,7 @@ section{
   }
 
 }
+
 
 
 
