@@ -117,7 +117,7 @@ function handleSubmit(event) {
     // Nota: JSON.parse(JSON.stringify(formData)) es usualmente innecesario aquí.
     // EmailJS espera un objeto simple para los parámetros de la plantilla.
     // Lo mantenemos por ahora si fue una solución a un problema previo, pero considera `formData` directamente.
-    emailjs.send('service_4fyhgsf', 'template_skcrvg2', JSON.parse(JSON.stringify(formData)), 'Zebq3EYvfuMyUHuPs')
+    emailjs.send('service_4fyhgsf', 'template_skcrvg2', JSON.parse(JSON.stringify(formData)), 'bo1370mEF5ykGhujt')
         .then(function(response) {
             console.log('EmailJS Éxito:', response.status, response.text);
             alert('¡Hola!. Tu Mensaje ha sido enviado con éxito! Revise su correo.');
