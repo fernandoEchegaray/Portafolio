@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
     console.log('Inicializando EmailJS...');
-    emailjs.init("Zebq3EYvfuMyUHuPs");
+    emailjs.init("bo1370mEF5ykGhujt");
     console.log('EmailJS inicializado correctamente.');
   } catch (initError) {
     console.error('Error durante la inicialización de EmailJS:', initError);
