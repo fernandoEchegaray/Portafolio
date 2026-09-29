@@ -149,7 +149,7 @@ section{
               0 0 100px var(--main-color);
 } 
 .home-content p{
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.8;
   max-width: 650px;
